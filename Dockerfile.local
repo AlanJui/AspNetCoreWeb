@@ -4,5 +4,6 @@ WORKDIR /app
 # dotnet publish -o out
 COPY ./out .
 
-ENV PORT=80
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet docker-01.dll
+ENV ASPNETCORE_URLS='http://+:80'
+ENTRYPOINT ["dotnet", "docker-01.dll"]
+
