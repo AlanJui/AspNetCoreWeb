@@ -31,7 +31,7 @@ $ dotnet publish -o out
 
 6. 建置 Docker Image
 ```
-$ docker build -t asp-net-core-web .
+$ docker build -f Dockerfile.local -t asp-net-core-web .
 ```
 
 7. 執行 Docker Container
