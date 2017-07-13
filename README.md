@@ -70,6 +70,9 @@ $ heroku container:push web
 $ heroku open -a <HerokuApp>
 ```
 
+【Heroku參考】： https://ccc-asp-net-core-app.herokuapp.com/
+
+
 【參考文件】： https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 # 事前準備
@@ -86,12 +89,12 @@ $ heroku open -a <HerokuApp>
  - Heroku CLI
  - heroku-container-registry 
 
-安裝 Heroku CLI
+1. 安裝 Heroku CLI
 
-安裝參考文件： https://devcenter.heroku.com/articles/heroku-cli
+參考文件： https://devcenter.heroku.com/articles/heroku-cli
 
 
-安裝 Heroku 所需之 container-registry plugin：
+2. 安裝 Heroku 所需之 container-registry plugin：
 ```
 $ heroku plugins:install heroku-container-registry
 ```
