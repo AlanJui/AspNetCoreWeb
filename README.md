@@ -31,12 +31,12 @@ $ dotnet publish -o out
 
 6. 建置 Docker Image
 ```
-$ docker build -t AspNetCoreWeb .
+$ docker build -t asp-net-core-web .
 ```
 
 7. 執行 Docker Container
 ```
-$ docker run --rm -p 8000:80 AspNetCoreWeb
+$ docker run --rm -p 8000:80 asp-net-core-web
 ```
 
 8. 使用 Web 瀏覽器，瀏覽網址： http://localhost:8000
